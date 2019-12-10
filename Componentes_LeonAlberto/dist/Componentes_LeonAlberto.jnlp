@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Componentes_LeonAlberto.jnlp">
+  <information>
+    <title>Componentes_LeonAlberto</title>
+    <vendor>Usuario</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Componentes_LeonAlberto.jar" size="10286" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Componentes_LeonAlberto" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="componentes_leonalberto.Componentes_LeonAlberto"  name="Componentes_LeonAlberto" />
+  <update check="always"/>
+</jnlp>

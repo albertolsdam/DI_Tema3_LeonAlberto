@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import componentes_leonalberto.SelectorDeslizamiento?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="434.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appusoselector.AppUsoSelectorFXMLController">
+   <children>
+      <Label text="Selectores" textFill="RED" underline="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" />
+         </padding></Label>
+      <SelectorDeslizamiento fx:id="selectorArriba" />
+      <SelectorDeslizamiento fx:id="selectorAbajo" />
+      <Label fx:id="pulsado" text="Label">
+         <padding>
+            <Insets top="10.0" />
+         </padding></Label>
+   </children>
+</VBox>
