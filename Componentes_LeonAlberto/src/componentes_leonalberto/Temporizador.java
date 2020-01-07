@@ -19,7 +19,7 @@ import javafx.util.Duration;
 
 /**
  *
- * @author Carlos
+ * @author Alberto Leon
  */
 public class Temporizador extends HBox {
 
